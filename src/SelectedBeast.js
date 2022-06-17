@@ -4,6 +4,7 @@ import Modal from 'react-bootstrap/Modal';
 
 class SelectedBeast extends React.Component {
 
+  
   render() {
     return (
       <>
@@ -15,6 +16,7 @@ class SelectedBeast extends React.Component {
           </Modal.Header>
           <Image src={this.props.selectedBeast.image_url} alt={this.props.selectedBeast.title} />
           <Modal.Body>{this.props.selectedBeast.description}</Modal.Body>
+          <Modal.Body>{this.props.selectedBeast.horns}</Modal.Body>
         </Modal>
       </>
     );
