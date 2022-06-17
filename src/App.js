@@ -49,12 +49,12 @@ class App extends React.Component {
         sortedData: newData
       });
     } else if (selected === '3') {
-      let newData = data.filter(num => num.horns === 2);
+      let newData = data.filter(num => num.horns === 3);
       this.setState({
         sortedData: newData
       });
     } else if (selected === '100') {
-      let newData = data.filter(num => num.horns === 2);
+      let newData = data.filter(num => num.horns === 100);
       this.setState({
         sortedData: newData
       });
