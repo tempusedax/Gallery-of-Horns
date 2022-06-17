@@ -1,6 +1,4 @@
 import React from 'react';
-import Image from 'react-bootstrap/Image';
-import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
 class Forms extends React.Component {
